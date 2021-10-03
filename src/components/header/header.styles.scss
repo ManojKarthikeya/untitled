@@ -1,0 +1,55 @@
+.header {
+	height: 75px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+
+	.name {
+		width: 80%;
+		height: 100%;
+		font-size: 30px;
+		font-weight: bold;
+        padding: 20px;
+		padding-bottom: 5px;
+	}
+    
+	.options {
+        width: 50%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+	}
+    
+	.option {
+        margin: 30px;
+        padding: 10px 5px;
+		cursor: pointer;
+		position: relative;
+		transition: all 0.5s ease;
+
+		&::before {
+			content: "";
+			position: absolute;
+			width: 100%;
+			height: 2px;
+			bottom: 0;
+			left: 0;
+			background-color: #FF7777;
+			visibility: hidden;
+			-webkit-transform: scaleX(0);
+			transform: scaleX(0);
+			-webkit-transition: all 0.3s ease-in-out 0s;
+			transition: all 0.3s ease-in-out 0s;
+		}
+
+		&:hover {
+			color: #FF7777;
+			&::before {
+				visibility: visible;
+				-webkit-transform: scaleX(1);
+				transform: scaleX(1);
+			}
+		}
+	}
+}

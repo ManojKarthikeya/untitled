@@ -1,0 +1,63 @@
+.list {
+	width: 19vw;
+	font-size: 22px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.up-disppear {
+	height: 100%;
+	width: 35px;
+	padding: 25px;
+	visibility: hidden;
+}
+
+.titles {
+	cursor: pointer;
+}
+
+.title {
+	padding: 10px;
+}
+
+.current-item {
+	padding: 10px;
+	animation-name: current-item-anim;
+	animation-fill-mode: forwards;
+	animation-duration: 1.5s;
+	background: linear-gradient(to left, white 50%, #ff7777 50%) right;
+	background-size: 200%;
+	transition: 0.5s ease-out;
+}
+
+.current-item-text {
+	animation-name: text-color;
+	animation-fill-mode: forwards;
+	animation-duration: 1.5s;
+}
+
+.down-disppear {
+	height: 100%;
+	width: 35px;
+	padding: 25px;
+	visibility: hidden;
+}
+
+.up {
+	height: 100%;
+	width: 35px;
+	padding: 25px;
+	cursor: pointer;
+}
+
+@keyframes current-item-anim {
+	to {
+		background-position: left;
+	}
+}
+
+@keyframes text-color {
+	to {
+		color: white;
+	}
+}

@@ -1,0 +1,14 @@
+
+.gallery{
+    height: 80vh;
+    width: 87vw;
+    padding: 20px;
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    overflow: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    ;
+}
