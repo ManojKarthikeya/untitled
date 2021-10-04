@@ -6,7 +6,7 @@ import './gallery.styles.scss'
 const GalleryPage = () => (
     <div className="gallery">
         {
-            < Gallery className="gal" images={imagePaths.slice(1,imagePaths.length-1)} rowHeight={600} margin={30} backdropClosesModal={true}/>
+            < Gallery className="gal" images={imagePaths.slice(1,imagePaths.length-1)} rowHeight={810} margin={10} backdropClosesModal={true}/>
         }
     </div>
 );
