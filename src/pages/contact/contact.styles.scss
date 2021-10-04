@@ -30,6 +30,7 @@
         overflow: hidden;
 	    mix-blend-mode: difference;
         animation: background-gradient 4s ease-out;
+        pointer-events: none;
         // animation-fill-mode: forwards;
     }
 }
@@ -48,5 +49,126 @@
       }
 }
 
+.star{
+    position: absolute;
+    width: 170px;
+    top: 14%;
+    left: 22%;
+}
 
+.rocket{
+    position: absolute;
+    transform: rotate(30deg);
+    top:60%;
+    left: 15%;
+    width: 250px;
+}
 
+.imagedrawing{
+    pointer-events: none;
+    max-height: 230px;
+    max-width: 230px;
+    mix-blend-mode: multiply;
+}
+
+.bowl{
+    position: absolute;
+    width: 220px;
+    top: 21%;
+    left: 4%;
+}
+
+.among-us{
+    top: 59%;
+    left: 7%;
+    transform: scale(4,4);
+    position: absolute;
+    height: 200 px;
+}
+
+.insta{
+    color: #ff7777;
+    top: 16%;
+    position: absolute;
+    transform: scale(5,5);
+}
+
+.svg-container{
+    .gold{
+        position: absolute;
+        transform: scale(0.4,0.4);
+        top: 60%;
+        left: -7%;
+    }
+}
+
+.queen{
+    transform: scale(1.4,1.4);
+    position: absolute;
+    left: 45%;
+    top: 15%;
+}
+
+.ghost{
+    position: absolute;
+    width: 100px;
+    left: 34%;
+    top: 3%
+}
+
+.palette{
+    transform: rotate(-30deg);
+    width: 300px;
+    position: absolute;
+    left: 81%;
+    top: 63%;
+}
+
+.brush{
+    width: 200px;
+    position: absolute;
+    left: 33%;
+    top: 64%;
+}
+
+.robot{
+    left: 43%;
+    top: 52%;
+    position: absolute;
+    transform: scale(0.8,0.8);
+}
+
+.bulb{
+    position: absolute;
+    transform: scale(6,6);
+    left: 70%;
+    top: 66%;
+}
+
+.painting{
+    position: absolute;
+    width: 280px;
+    left: 63%;
+    top: 3%
+}
+
+.fire{
+    position: absolute;
+    width: 100px;
+    left: 73%;
+    top: 82%
+}
+
+.snap{
+    position: absolute;
+    transform: scale(6,6);
+    top: 45%;
+    left: 85%;
+}
+
+.duck {
+    position: absolute;
+    top: 10%;
+    left: 87%;
+
+}
