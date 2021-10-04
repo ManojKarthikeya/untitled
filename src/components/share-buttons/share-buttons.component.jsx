@@ -16,7 +16,6 @@ const ShareButtons = (state) => (
     <div className="share-buttons">
             <Anime scale={[0,1]} duration={2000} key={Math.random()}>
 			<TwitterShareButton
-				bgStyle={{ fill: "#ff7777" }}
 				className="share-button"
 				url={`spandanasirisina.hal/gallery/${
 					imagePaths[state.item.itemNumber].name

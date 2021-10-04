@@ -1,0 +1,71 @@
+.about {
+	width: 99.2vw;
+	height: 88vh;
+	background: linear-gradient(-45deg, #ff7777, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 35s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.custom-shape-divider-top-1633279674 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1633279674 svg {
+    animation: wave 60s cubic-bezier( 0.36, 0.45, 0.63, 0.53) forwards, swell 7s ease -1.25s infinite;
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 103px;
+}
+
+.custom-shape-divider-top-1633279674 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.wave-1{
+    animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) normal;
+    transform: translate3d(0, 0, 0);
+}
+
+.wave:nth-of-type(2) {
+    top: -175px;
+    animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s ;
+    opacity: 1;
+  }
+
+@keyframes wave {
+    0% {
+      margin-left: 0;
+    }
+    100% {
+      margin-left: -190vw;
+    }
+}
+
+  @keyframes swell {
+    0%, 100% {
+      transform: translate3d(0,-12px,0);
+    }
+    50% {
+      transform: translate3d(0,0,0);
+    }
+  }

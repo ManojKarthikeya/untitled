@@ -9,13 +9,13 @@ const Header = () => (
             <Link to="/">SPANDANA SIRISINAHAL</Link>
         </div>
         <div className="options">
-            <Link to="/me" className="option">
+            <Link to="/about" className="option">
                 ABOUT
             </Link>
-            <Link to="gallery"className="option">
+            <Link to="/gallery"className="option">
                 GALLERY
             </Link>
-            <Link to="gallery"className="option">
+            <Link to="/contact"className="option">
                 CONTACT
             </Link>
         </div>

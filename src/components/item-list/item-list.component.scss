@@ -17,15 +17,17 @@
 }
 
 .title {
+	color: #9D9D9D;
 	padding: 10px;
 }
 
 .current-item {
+	color: #9D9D9D;
 	padding: 10px;
 	animation-name: current-item-anim;
 	animation-fill-mode: forwards;
 	animation-duration: 1.5s;
-	background: linear-gradient(to left, white 50%, #ff7777 50%) right;
+	background: linear-gradient(to left, rgba(0,0,0,0) 50%, #ff7777 50%) right;
 	background-size: 200%;
 	transition: 0.5s ease-out;
 }

@@ -1,0 +1,52 @@
+.email-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -35%);
+}
+
+.container {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	pointer-events: none;
+	top: 0;
+    left: 0;
+	width: 100%;
+	height: 100%;
+    overflow: hidden;
+    .filter{
+
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        align-self: center;
+        width: 100%;
+        height: 100vw;
+        background: radial-gradient(
+		circle at center,
+		rgba(255, 255, 255, 1),rgba(235, 232, 232, 1),rgba(255, 255, 255, 1));
+        overflow: hidden;
+	    mix-blend-mode: difference;
+        animation: background-gradient 4s ease-out;
+        // animation-fill-mode: forwards;
+    }
+}
+
+@keyframes background-gradient {
+    0% {
+        border-radius: 100%;
+        width: 0vw;
+        height: 0vw;
+      }
+      100% {
+        width: 120vw;
+        height: 100vw;
+        border-radius: 28%;
+
+      }
+}
+
+
+
