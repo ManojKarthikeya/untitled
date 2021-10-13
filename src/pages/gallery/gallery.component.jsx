@@ -1,13 +1,16 @@
 import React from "react";
 // import Gallery from 'react-grid-gallery'
 // import { imagePaths } from "../../data/imagePaths";
-import './gallery.styles.scss'
+import "./gallery.styles.scss";
+import WorkAround from "./workaround.component";
 
-const GalleryPage = () => (
-    <div className="gallery">
-        <div className="gallery-text">G A L L E R Y</div>
-    </div>
-);
+const GalleryPage = () => {
 
+	return (
+		<div className="main">
+				< WorkAround />
+		</div>
+	);
+};
 
 export default GalleryPage;
