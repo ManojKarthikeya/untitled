@@ -22,7 +22,7 @@ const ContactPage = () => {
 	const array = ["#ff7777","#1e4c4c","#78ae80",'#87517f',"#b68a63"];
 	const colorIndex = Math.floor(Math.random()*array.length);
 	return(
-	<div className="contactPage">
+	<div className="contactPage" id={Math.random()}>
 		<div className="email-container" style={{color:array[colorIndex]}}>
 			<EmailShareButton>
 				<Email />

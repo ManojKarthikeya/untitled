@@ -1,16 +1,19 @@
 import React from "react";
-// import Gallery from 'react-grid-gallery'
-// import { imagePaths } from "../../data/imagePaths";
 import "./gallery.styles.scss";
-import WorkAround from "./workaround.component";
-
+import { useSpring, animated } from "react-spring";
+import { useMove,useScroll } from "@use-gesture/react";
 const GalleryPage = () => {
-
-	return (
-		<div className="main">
-				< WorkAround />
-		</div>
-	);
+	const bind = useMove(({ direction, target }) => {
+		const [a,b] = direction;
+	});
+	return <animated.div {...bind()} className="main-gallery">
+		<div className="junk"></div>
+		<div className="junk"></div>
+		<div className="junk"></div>
+		<div className="junk"></div>
+		<div className="junk"></div>
+		<div className="junk"></div>
+	</animated.div>;
 };
 
 export default GalleryPage;

@@ -4,13 +4,6 @@ export const imagePaths = [
 		thumbnailHeight: 0,
 		thumbnailWidth: 0
 	},
-	{	
-		name: "FLOWERS",
-		thumbnail:"https://i.ibb.co/cCStGMz/IMG-20210530-WA0036.jpg",
-		src: "https://i.ibb.co/cCStGMz/IMG-20210530-WA0036.jpg",
-		thumbnailWidth: 868,
-		thumbnailHeight: 1160,
-	},
 	{
 		name: "WINE",
 		src: "https://i.ibb.co/bJbXXKy/IMG-20210530-WA0037.jpg",thumbnail:"https://i.ibb.co/bJbXXKy/IMG-20210530-WA0037.jpg",

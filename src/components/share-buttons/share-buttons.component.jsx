@@ -23,7 +23,7 @@ const ShareButtons = (state) => (
 				title={"Cool Art! \n"}
 				via={"SpandanaUsername"}
 			>
-				<TwitterIcon size={32} round={true} />
+				<TwitterIcon size={32} round={true} bgStyle={{color: "transparent"}} />
 			</TwitterShareButton>
             </Anime>
             <Anime scale={[0,1]} duration={2000} key={Math.random()}>

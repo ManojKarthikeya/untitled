@@ -1,36 +1,17 @@
-.gallery{
+.main-gallery{
+	display: flex;
+	flex-flow: column;
+	flex-wrap: wrap;
 	background-color: rgb(26, 23, 23);
 	padding: 20px;
-	width: 200vw;
-	height: 100vh;
-}
-.scroll-container{
+	max-width: 50vw;
+	max-height: 50vh;
 	overflow: scroll;
-	max-width: 100vw;
-	max-height: 90vh;
 }
 
-
-.gallery-text{
-	color: white;
-	left: 50%;
-}
-
-@keyframes spacing {
-	from {
-		font-size: 40px;
-	}
-	to {
-		letter-spacing: 80px;
-		font-size: 45px;
-	}
-}
-
-@keyframes open {
-    from{
-        height: 0vw;
-    }
-	to {
-		height: 100vw;
-	}
+.junk{
+	margin: 20px;
+	background-color: antiquewhite;
+	width: 500px;
+	height: 500px;
 }
